@@ -1,5 +1,8 @@
 package com.wordpress.laaptu.lambda;
 
+/**
+ * Lambda expression for interface without any argument and return type
+ */
 public class FirstImplementation {
 	interface IPrint {
 		void printName();

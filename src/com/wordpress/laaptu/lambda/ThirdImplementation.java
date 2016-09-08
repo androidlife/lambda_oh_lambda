@@ -1,5 +1,9 @@
 package com.wordpress.laaptu.lambda;
 
+/**
+ * Lambda expression for interface with single argument and no return type
+ */
+
 public class ThirdImplementation {
 	interface IPrint {
 		void printName(String name);

@@ -1,5 +1,8 @@
 package com.wordpress.laaptu.lambda;
 
+/**
+ * Lambda expression for interface with two arguments and a return type
+ */
 public class FourthImplementation {
 	interface IPrint {
 		int printName(int age, String name);
