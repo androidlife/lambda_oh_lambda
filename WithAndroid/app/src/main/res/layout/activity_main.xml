@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.wordpress.laaptu.lambdawithandroid.MainActivity"
+    >
+
+  <Button
+      android:id="@+id/btn_print_lambda"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:text="@string/print_lambda"
+      />
+  <Button
+      android:id="@+id/btn_print"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:text="@string/print_without_lambda"
+      />
+  <Button
+      android:id="@+id/btn_print_method_reference"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:text="@string/print_with_method_reference"
+      />
+  <TextView
+      android:id="@+id/txt_info"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_margin="10dp"
+      android:text="Hello World!"
+      android:textStyle="bold"
+      android:textSize="20sp"
+      android:textColor="@color/colorPrimaryDark"
+      />
+
+</LinearLayout>
